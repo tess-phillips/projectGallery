@@ -14,6 +14,10 @@ a:active {
     color: blue;
   }
 
+p{
+  display:none
+}
+
 footer{
   text-align: center;
   color: white;
@@ -56,6 +60,7 @@ body {
     box-shadow: 2px 2px 6px 0px;
     background-color: antiquewhite;
     opacity: 80%;
+    /* height:450px; */
     }
 
 .card:hover{
@@ -78,85 +83,9 @@ body {
     padding: 10px;
     width: 100%;
 }
-/*
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.flex-item-left {
-  flex: 50%;
-}
-
-.flex-item-right {
-  flex: 50%;
-}
-
-Responsive layout - makes a one column layout instead of a two-column layout
-@media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
+@media (max-width: 700px) and (min-width: 0px) {
+  .cards {
+      font-size: small;
     }
   }
-  
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
-
-.blockleft,.blockright,.blockmiddle{
-    background-color: yellow;
-    width: 33%;
-    height: 350px;
-    word-wrap: break-word;
-    display: inline-block; 
-    *display: inline; 
-    zoom: 1; 
-    vertical-align: top;
-    padding: 10px
-}
-
-
-.level2block{
-    background-color: yellow;
-    width: 100%;
-    height: 500px;
-    word-wrap: break-word;
-}
-
-
-
-img{
-  opacity: 0.8
-}
-img:hover{
-  opacity: 1;
-}
-
-figure{
-  display: inline-block;
-}
-
-
-
-h3 {
-    font-size: 10px
-}
-
-h6{
-  text-align: center;
-  color: white;
-  font-size: 15px;
-}
-
-@media (max-width: 768px) {
-  .blockleft, .blockright, .blockmiddle {
-    width: 358px;
-  }
-
-}
-
-@media (max-width: 1199px) and (min-width: 769px) {
-  .blockleft, .blockright, .blockmiddle {
-      width: 358px;
-    }
-}*/
